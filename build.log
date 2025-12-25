@@ -1,0 +1,39 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------------< com.food:suggester >-------------------------
+[INFO] Building suggester 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.2.0:resources (default-resources) @ suggester ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 1 resource
+[INFO] Copying 63 resources
+[INFO] 
+[INFO] --- compiler:3.10.1:compile (default-compile) @ suggester ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 15 source files to F:\Project1\target\classes
+[INFO] 
+[INFO] --- resources:3.2.0:testResources (default-testResources) @ suggester ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory F:\Project1\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.10.1:testCompile (default-testCompile) @ suggester ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:2.22.2:test (default-test) @ suggester ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.2.2:jar (default-jar) @ suggester ---
+[INFO] Building jar: F:\Project1\target\suggester-0.0.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- spring-boot:2.7.18:repackage (repackage) @ suggester ---
+[INFO] Replacing main artifact with repackaged archive
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  4.623 s
+[INFO] Finished at: 2025-12-24T16:50:18+05:30
+[INFO] ------------------------------------------------------------------------

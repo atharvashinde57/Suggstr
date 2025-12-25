@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suggstr | Premium Food Suggester</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="logo-section" onclick="showSection('home')">
+            <div class="logo-text">SUGGSTR</div>
+        </div>
+        <nav class="nav-links">
+            <a id="nav-home" class="nav-item active" onclick="showSection('home')">Home</a>
+            <a id="nav-menu" class="nav-item" onclick="showSection('menu')">Menu</a>
+            <a id="nav-offers" class="nav-item" onclick="showSection('offers')">Offers</a>
+            <a id="nav-profile" class="nav-item" onclick="showSection('profile')">Profile</a>
+        </nav>
+    </header>
+
+    <div class="container">
+
+        <!-- Hero Section -->
+        <div id="hero" class="hero">
+            <div class="hero-banner" style="padding: 100px 0 80px 0;">
+                <h1 class="hero-title" style="font-size: 64px; letter-spacing: -2px;">Hungry? Let's fix that.</h1>
+                <p class="hero-subtitle" style="font-size: 24px; color: #555;">Experience a curated selection of fine
+                    Indian cuisine personalized just for you, powered by intelligent taste profiling.</p>
+                <button class="btn-primary" onclick="startQuiz()">Find My Meal</button>
+            </div>
+
+            <!-- Features Section -->
+            <div class="features-section" style="padding: 80px 0; border-top: 1px solid #eee;">
+                <div class="feature-grid">
+                    <div class="feature-item">
+                        <div class="feature-number">01</div>
+                        <h3>Taste Profile</h3>
+                        <p>We analyze your cravings through a simple, intuitive quiz.</p>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-number">02</div>
+                        <h3>Smart Matching</h3>
+                        <p>Our algorithm selects the perfect dish from over 50 options.</p>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-number">03</div>
+                        <h3>Culinary Joy</h3>
+                        <p>Enjoy expert recommendations with detailed descriptions.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Philosophy Section -->
+            <div class="philosophy-section"
+                style="padding: 100px 0; background-color: #f9f9f9; width: 100vw; position: relative; left: 50%; right: 50%; margin-left: -50vw; margin-right: -50vw;">
+                <div class="container" style="max-width: 800px; padding: 0;">
+                    <h2 class="section-title" style="font-size: 42px; margin-bottom: 40px;">The Art of Suggestion</h2>
+                    <p style="font-size: 20px; line-height: 1.8; color: #444; font-weight: 300;">
+                        Food is more than just sustenance; it is an experience. at <strong>Suggstr</strong>, we believe
+                        that choosing what to eat shouldn't be a chore.
+                        We combine the precision of modern technology with the richness of traditional Indian culinary
+                        arts to guide you to your perfect meal.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Quiz Container -->
+        <div id="quiz-container" class="quiz-card" style="display: none;">
+            <div id="question-text" class="question-text">Question goes here...</div>
+            <div id="options-container" class="options-grid">
+                <!-- Options injected by JS -->
+            </div>
+            <div style="margin-top: 30px; text-align: right; color: #aaa; font-size: 14px; font-weight: 600;">
+                STEP <span id="q-current">1</span> OF 10
+            </div>
+        </div>
+
+        <!-- Loading -->
+        <div id="loading" class="loading" style="display: none;">
+            Analyzing your taste profile...
+        </div>
+
+        <!-- Result -->
+        <div id="result" class="result-card" style="display: none;">
+            <img id="dish-img" src="" alt="Dish" class="dish-img">
+            <div class="dish-content">
+                <h2 class="dish-title">
+                    <span id="dish-name">Dish Name</span>
+                    <span class="dish-tag-badge">98% Match</span>
+                </h2>
+                <p id="dish-desc" class="dish-desc">Description of the food.</p>
+                <div style="display: flex; gap: 15px;">
+                    <button class="btn-primary" onclick="showSection('home')">Find Another</button>
+                    <!-- <button class="btn-primary" style="background:#444;">View Recipe</button> -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Menu Section -->
+        <div id="menu-section" style="display: none;">
+            <h2 class="section-title">Our Complete Menu</h2>
+            <div id="menu-grid" class="menu-grid">
+                <!-- Menu items injected here -->
+            </div>
+        </div>
+
+        <!-- Offers Section -->
+        <div id="offers-section" style="display: none; text-align: center; padding: 50px; color: #fff;">
+            <h2>Current Offers</h2>
+            <p style="color: #ccc; margin-top: 10px;">No active offers at the moment. Check back later!</p>
+        </div>
+
+        <!-- Profile Section / Login Modal Placeholder -->
+        <!-- We will handle login via a modal, this section is for logged in view -->
+        <div id="profile-section" style="display: none; padding: 60px 0;">
+            <div id="profile-content" style="text-align: center;">
+                <h2 style="font-size: 36px; margin-bottom: 20px;">Join the Club</h2>
+                <p style="color: #666; margin-bottom: 30px;">Login to unlock personalized recommendations and track your
+                    taste journey.</p>
+                <button class="btn-primary" onclick="openLoginModal()">Login / Sign Up</button>
+            </div>
+
+            <div id="logged-in-content" style="display:none; max-width: 900px; margin: 0 auto;">
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: start;">
+                    <!-- User Card -->
+                    <div class="user-card"
+                        style="background: white; padding: 40px; border: 1px solid #eee; text-align: left;">
+                        <h2 style="font-size: 32px; margin-bottom: 30px;">My Profile</h2>
+
+                        <div style="margin-bottom: 25px;">
+                            <label
+                                style="font-size: 12px; text-transform: uppercase; color: #999; letter-spacing: 1px;">Full
+                                Name</label>
+                            <div id="profile-fullname"
+                                style="font-size: 20px; font-weight: 600; font-family: 'Playfair Display', serif;">-
+                            </div>
+                        </div>
+
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 25px;">
+                            <div>
+                                <label
+                                    style="font-size: 12px; text-transform: uppercase; color: #999; letter-spacing: 1px;">Age</label>
+                                <div id="profile-age" style="font-size: 18px;">-</div>
+                            </div>
+                            <div>
+                                <label
+                                    style="font-size: 12px; text-transform: uppercase; color: #999; letter-spacing: 1px;">Cuisine</label>
+                                <div id="profile-cuisine" style="font-size: 18px;">-</div>
+                            </div>
+                        </div>
+
+                        <div style="margin-bottom: 30px;">
+                            <label
+                                style="font-size: 12px; text-transform: uppercase; color: #999; letter-spacing: 1px;">Email</label>
+                            <div id="profile-email" style="font-size: 16px; color: #555;">-</div>
+                        </div>
+
+                        <button class="btn-primary" onclick="logout()"
+                            style="background-color: #000; font-size: 12px; padding: 12px 25px;">Sign Out</button>
+                    </div>
+
+                    <!-- Stats Card -->
+                    <div class="stats-card" style="background: #fafafa; padding: 40px; border: 1px solid #eee;">
+                        <h3 style="margin-bottom: 20px;">Taste Analysis</h3>
+                        <div style="width: 100%; height: 300px;">
+                            <canvas id="historyChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <!-- Login Modal -->
+    <div id="login-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeLoginModal()">&times;</span>
+            <h2>Login</h2>
+            <input type="text" id="username" placeholder="Username" class="input-field">
+            <input type="password" id="password" placeholder="Password" class="input-field">
+            <button class="btn-primary" onclick="performLogin()" style="width: 100%; margin-top: 20px;">Login</button>
+            <p style="margin-top:15px; font-size:0.9rem; color:#666;">
+                Don't have an account? <a href="#" onclick="showRegisterModal()"
+                    style="color:var(--primary-color); text-decoration:none; font-weight:bold;">Sign Up</a>
+            </p>
+        </div>
+    </div>
+
+    <div id="register-modal" class="modal">
+        <div class="modal-content" style="max-width: 500px;">
+            <span class="close" onclick="closeRegisterModal()">&times;</span>
+            <h2>Sign Up</h2>
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px;">
+                <input type="text" id="reg-fullname" placeholder="Full Name" class="input-field">
+                <input type="number" id="reg-age" placeholder="Age" class="input-field">
+            </div>
+            <input type="email" id="reg-email" placeholder="Email Address" class="input-field">
+            <select id="reg-cuisine" class="input-field" style="background: white;">
+                <option value="" disabled selected>Favorite Cuisine</option>
+                <option value="North Indian">North Indian</option>
+                <option value="South Indian">South Indian</option>
+                <option value="Maharashtrian">Maharashtrian</option>
+                <option value="Rajasthani">Rajasthani</option>
+                <option value="Gujarati">Gujarati</option>
+            </select>
+            <input type="text" id="reg-username" placeholder="Choose Username" class="input-field">
+            <input type="password" id="reg-password" placeholder="Choose Password" class="input-field">
+            <button class="btn-primary" onclick="performRegister()" style="width: 100%; margin-top: 20px;">Create
+                Profile</button>
+            <p style="margin-top:15px; font-size:0.9rem; color:#666;">
+                Already have an account? <a href="#" onclick="showLoginModalFromRegister()"
+                    style="color:var(--brand-accent); text-decoration:none; font-weight:bold;">Login</a>
+            </p>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-links">
+            <a href="#">About Us</a>
+            <a href="#">Restaurants</a>
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+        </div>
+        <p>&copy; 2024 Suggstr Inc. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js?v=2"></script>
+</body>
+
+</html>

@@ -1,0 +1,217 @@
+[
+    {
+        "id": 1,
+        "text": "How hungry are you right now?",
+        "options": [
+            {
+                "id": 1,
+                "text": "I could eat a horse! (Starving)",
+                "tagEffect": "HEAVY"
+            },
+            {
+                "id": 2,
+                "text": "Little bit peckish (Snack time)",
+                "tagEffect": "LIGHT"
+            },
+            {
+                "id": 3,
+                "text": "Just want something tasty",
+                "tagEffect": "STREET"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "text": "Spice tolerance level?",
+        "options": [
+            {
+                "id": 4,
+                "text": "Bring on the heat! (Spicy)",
+                "tagEffect": "SPICY"
+            },
+            {
+                "id": 5,
+                "text": "Mild and creamy please",
+                "tagEffect": "CREAMY"
+            },
+            {
+                "id": 6,
+                "text": "Sweet tooth craving",
+                "tagEffect": "SWEET"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "text": "Veg or Non-Veg?",
+        "options": [
+            {
+                "id": 7,
+                "text": "Pure Veg",
+                "tagEffect": "VEG"
+            },
+            {
+                "id": 8,
+                "text": "Require Meat",
+                "tagEffect": "NONVEG"
+            },
+            {
+                "id": 9,
+                "text": "Either is fine",
+                "tagEffect": "STREET"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "text": "What's the budget?",
+        "options": [
+            {
+                "id": 10,
+                "text": "Broke student (Cheap eats)",
+                "tagEffect": "CHEAP"
+            },
+            {
+                "id": 11,
+                "text": "Treating myself (Royal)",
+                "tagEffect": "ROYAL"
+            },
+            {
+                "id": 12,
+                "text": "Standard meal",
+                "tagEffect": "DINNER"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "text": "Texture preference?",
+        "options": [
+            {
+                "id": 13,
+                "text": "Crispy and crunchy",
+                "tagEffect": "CRISPY"
+            },
+            {
+                "id": 14,
+                "text": "Soft and Melt-in-mouth",
+                "tagEffect": "SOFT"
+            },
+            {
+                "id": 15,
+                "text": "Rice based",
+                "tagEffect": "RICE"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "text": "Time of day?",
+        "options": [
+            {
+                "id": 16,
+                "text": "Good Morning",
+                "tagEffect": "BREAKFAST"
+            },
+            {
+                "id": 17,
+                "text": "Lunch break",
+                "tagEffect": "LUNCH"
+            },
+            {
+                "id": 18,
+                "text": "Dinner time",
+                "tagEffect": "DINNER"
+            },
+            {
+                "id": 19,
+                "text": "Midnight cravings",
+                "tagEffect": "SNACK"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "text": "Temperature?",
+        "options": [
+            {
+                "id": 20,
+                "text": "Piping hot",
+                "tagEffect": "HOT"
+            },
+            {
+                "id": 21,
+                "text": "Cool and refreshing",
+                "tagEffect": "COLD"
+            },
+            {
+                "id": 22,
+                "text": "Room temp",
+                "tagEffect": "SNACK"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "text": "Cuisine preference?",
+        "options": [
+            {
+                "id": 23,
+                "text": "North Indian",
+                "tagEffect": "NORTH"
+            },
+            {
+                "id": 24,
+                "text": "South Indian",
+                "tagEffect": "SOUTH"
+            },
+            {
+                "id": 25,
+                "text": "Maharashtra / Pune Local",
+                "tagEffect": "MARATHI"
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "text": "Mood?",
+        "options": [
+            {
+                "id": 26,
+                "text": "Healthy",
+                "tagEffect": "HEALTHY"
+            },
+            {
+                "id": 27,
+                "text": "Comfort food (Indulgent)",
+                "tagEffect": "BUTTERY"
+            },
+            {
+                "id": 28,
+                "text": "Festive",
+                "tagEffect": "FESTIVE"
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "text": "Last one: Fried or Baked?",
+        "options": [
+            {
+                "id": 29,
+                "text": "Deep Fried Goodness",
+                "tagEffect": "FRIED"
+            },
+            {
+                "id": 30,
+                "text": "Tandoori / Baked",
+                "tagEffect": "NORTH"
+            },
+            {
+                "id": 31,
+                "text": "Don't care",
+                "tagEffect": "STREET"
+            }
+        ]
+    }
+]

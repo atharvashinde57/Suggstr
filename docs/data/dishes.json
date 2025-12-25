@@ -1,0 +1,542 @@
+[
+    {
+        "id": 1,
+        "name": "Alu Vadi",
+        "description": "Steamed colocasia leaves with spices, fried for crispiness.",
+        "imageUrl": "images/aluvadi.jpg",
+        "vegetarian": true,
+        "price": 60.0,
+        "tags": "CRISPY,SNACK,VEG,SWEET,SPICY"
+    },
+    {
+        "id": 2,
+        "name": "Bhakarwadi",
+        "description": "Deep fried crispy rolls filled with sweet and spicy mix.",
+        "imageUrl": "images/bhakarvadi.jpg",
+        "vegetarian": true,
+        "price": 80.0,
+        "tags": "CRISPY,SNACK,SPICY,SWEET,DRY"
+    },
+    {
+        "id": 3,
+        "name": "Egg Bhurji Pav",
+        "description": "Spicy scrambled eggs with buttered bread.",
+        "imageUrl": "images/bhurjipav.jpg",
+        "vegetarian": true,
+        "price": 110.0,
+        "tags": "NONVEG,SPICY,DINNER,PROTEIN,HOT"
+    },
+    {
+        "id": 4,
+        "name": "Dabeli",
+        "description": "Spicy potato mash in bun with pomegranate and peanuts.",
+        "imageUrl": "images/dabeli.jpg",
+        "vegetarian": true,
+        "price": 30.0,
+        "tags": "SPICY,SWEET,STREET,SNACK,CHEAP"
+    },
+    {
+        "id": 5,
+        "name": "Dhokla",
+        "description": "Steamed spongy savory cake made from fermented batter.",
+        "imageUrl": "images/dhokla.jpg",
+        "vegetarian": true,
+        "price": 50.0,
+        "tags": "LIGHT,BREAKFAST,VEG,SNACK,GUJARATI"
+    },
+    {
+        "id": 6,
+        "name": "Masala Dosa",
+        "description": "Crispy rice crepe filled with spiced potatoes.",
+        "imageUrl": "images/dhosa.jpg",
+        "vegetarian": false,
+        "price": 90.0,
+        "tags": "CRISPY,SOUTH,LIGHT,BREAKFAST,VEG"
+    },
+    {
+        "id": 7,
+        "name": "Misal Pav",
+        "description": "Spicy sprouted lentil curry topped with farsan.",
+        "imageUrl": "images/misalpav.jpg",
+        "vegetarian": true,
+        "price": 120.0,
+        "tags": "SPICY,STREET,BREAKFAST,HOT,PUNJABI"
+    },
+    {
+        "id": 8,
+        "name": "Steamed Momos",
+        "description": "Tibetan dumplings served with spicy schezwan chutney.",
+        "imageUrl": "images/momos.jpg",
+        "vegetarian": true,
+        "price": 100.0,
+        "tags": "STREET,SNACK,LIGHT,SPICY,HOT"
+    },
+    {
+        "id": 9,
+        "name": "Omelette Pav",
+        "description": "Spicy masala omelette served with soft pav.",
+        "imageUrl": "images/omletpav.jpg",
+        "vegetarian": true,
+        "price": 60.0,
+        "tags": "NONVEG,BREAKFAST,PROTEIN,STREET"
+    },
+    {
+        "id": 10,
+        "name": "Pani Puri",
+        "description": "Crispy hollow balls filled with spicy tangy water.",
+        "imageUrl": "images/panipuri.jpg",
+        "vegetarian": true,
+        "price": 40.0,
+        "tags": "SPICY,STREET,LIGHT,SNACK,COLD"
+    },
+    {
+        "id": 11,
+        "name": "Aloo Paratha",
+        "description": "Whole wheat flatbread stuffed with spiced potatoes.",
+        "imageUrl": "images/paratha.jpg",
+        "vegetarian": false,
+        "price": 80.0,
+        "tags": "HEAVY,BREAKFAST,NORTH,PUNJABI,HOT"
+    },
+    {
+        "id": 12,
+        "name": "Pav Bhaji",
+        "description": "Spiced vegetable mash served with buttery rolls.",
+        "imageUrl": "images/pavbhaji.jpg",
+        "vegetarian": true,
+        "price": 150.0,
+        "tags": "SPICY,STREET,DINNER,HOT,BUTTERY"
+    },
+    {
+        "id": 13,
+        "name": "Kanda Poha",
+        "description": "Flattened rice cooked with onions and turmeric.",
+        "imageUrl": "images/poha.jpg",
+        "vegetarian": false,
+        "price": 35.0,
+        "tags": "LIGHT,BREAKFAST,VEG,SAVORY,HOT"
+    },
+    {
+        "id": 14,
+        "name": "Sabudana Vada",
+        "description": "Crispy sago patties deep fried to golden perfection.",
+        "imageUrl": "images/sabudanavada.jpg",
+        "vegetarian": true,
+        "price": 55.0,
+        "tags": "CRISPY,FASTING,SNACK,FRIED,HOT"
+    },
+    {
+        "id": 15,
+        "name": "SPDP (Sev Puri)",
+        "description": "Crispy flat puris topped with potato, chutneys and sev.",
+        "imageUrl": "images/shevpuri.jpg",
+        "vegetarian": true,
+        "price": 60.0,
+        "tags": "SWEET,SOUR,STREET,SNACK,COLD"
+    },
+    {
+        "id": 16,
+        "name": "Vada Pav",
+        "description": "The Indian burger - spicy potato fritter in a bun.",
+        "imageUrl": "images/vadapav.jpg",
+        "vegetarian": true,
+        "price": 25.0,
+        "tags": "SPICY,STREET,SNACK,HOT,CHEAP"
+    },
+    {
+        "id": 17,
+        "name": "Amruttulya Chai",
+        "description": "Strong, sweet, boiled tea infused with cardamom.",
+        "imageUrl": "images/amruttulyachai.png",
+        "vegetarian": true,
+        "price": 15.0,
+        "tags": "HOT,DRINK,CHEAP,SWEET,MORNING"
+    },
+    {
+        "id": 18,
+        "name": "Bun Maska",
+        "description": "Fresh bun slathered with generous amounts of butter.",
+        "imageUrl": "images/bunmaska.png",
+        "vegetarian": true,
+        "price": 30.0,
+        "tags": "BUTTERY,SNACK,BREAKFAST,LIGHT,CHEAP"
+    },
+    {
+        "id": 19,
+        "name": "Kanda Bhaji",
+        "description": "Crispy onion fritters, perfect with evening tea.",
+        "imageUrl": "images/kandabhaji.png",
+        "vegetarian": true,
+        "price": 45.0,
+        "tags": "CRISPY,FRIED,SNACK,HOT,MONSOON"
+    },
+    {
+        "id": 20,
+        "name": "Mango Mastani",
+        "description": "Rich mango milkshake with ice cream and dry fruits.",
+        "imageUrl": "images/mangomastani.png",
+        "vegetarian": false,
+        "price": 180.0,
+        "tags": "SWEET,DESSERT,COLD,HEAVY,FRUITY"
+    },
+    {
+        "id": 21,
+        "name": "Pithla Bhakri",
+        "description": "Rustic gram flour curry served with millet flatbread.",
+        "imageUrl": "images/pithlabhakri.png",
+        "vegetarian": false,
+        "price": 140.0,
+        "tags": "VILLAGE,LUNCH,VEG,HEALTHY,SPICY"
+    },
+    {
+        "id": 22,
+        "name": "Sabudana Khichdi",
+        "description": "Tapioca pearls tossed with peanuts and chilies.",
+        "imageUrl": "images/sabudanakhichdi.png",
+        "vegetarian": false,
+        "price": 60.0,
+        "tags": "FASTING,BREAKFAST,LIGHT,NUTTY,HOT"
+    },
+    {
+        "id": 23,
+        "name": "Tawa Pulao",
+        "description": "Spicy stir-fried rice with vegetables.",
+        "imageUrl": "images/tawapulao.png",
+        "vegetarian": true,
+        "price": 130.0,
+        "tags": "SPICY,STREET,DINNER,HOT,RICE"
+    },
+    {
+        "id": 24,
+        "name": "Puran Poli",
+        "description": "Sweet flatbread stuffed with lentil and jaggery filling.",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Puran_Poli.jpg",
+        "vegetarian": false,
+        "price": 50.0,
+        "tags": "SWEET,FESTIVE,LUNCH,HOT,GHEE"
+    },
+    {
+        "id": 25,
+        "name": "Sol Kadhi",
+        "description": "Refreshing pink drink made from kokum and coconut milk.",
+        "imageUrl": "images/solkadhi.jpg",
+        "vegetarian": false,
+        "price": 40.0,
+        "tags": "DRINK,MARATHI,COLD,SOUR,HEALTHY"
+    },
+    {
+        "id": 26,
+        "name": "Kokum Sharbat",
+        "description": "Sweet and tangy coolant drink made from garcinia.",
+        "imageUrl": "images/kokum.jpg",
+        "vegetarian": false,
+        "price": 30.0,
+        "tags": "DRINK,MARATHI,COLD,SWEET,REFRESHING"
+    },
+    {
+        "id": 27,
+        "name": "Piyush",
+        "description": "Thick, creamy yogurt-based dessert drink.",
+        "imageUrl": "images/piyush.jpg",
+        "vegetarian": false,
+        "price": 50.0,
+        "tags": "DRINK,MARATHI,SWEET,DESSERT,COLD"
+    },
+    {
+        "id": 28,
+        "name": "Mattha",
+        "description": "Spiced buttermilk with fresh coriander and ginger.",
+        "imageUrl": "images/mattha.jpg",
+        "vegetarian": false,
+        "price": 30.0,
+        "tags": "DRINK,MARATHI,SAVORY,HEALTHY,COLD"
+    },
+    {
+        "id": 29,
+        "name": "Kairi Panha",
+        "description": "Traditional raw mango drink for summer heat.",
+        "imageUrl": "images/panha.jpg",
+        "vegetarian": false,
+        "price": 40.0,
+        "tags": "DRINK,MARATHI,SWEET,MANGO,COLD"
+    },
+    {
+        "id": 30,
+        "name": "Thalipeeth",
+        "description": "Nutritious multi-grain pancake served with butter.",
+        "imageUrl": "images/thalipeeth.jpg",
+        "vegetarian": false,
+        "price": 70.0,
+        "tags": "MARATHI,BREAKFAST,HEALTHY,SPICY,HOT"
+    },
+    {
+        "id": 31,
+        "name": "Zunka Bhakar",
+        "description": "Spicy gram flour porridge with sorghum bread.",
+        "imageUrl": "images/zunkabhakar.jpg",
+        "vegetarian": false,
+        "price": 90.0,
+        "tags": "MARATHI,LUNCH,VILLAGE,SPICY,VEG"
+    },
+    {
+        "id": 32,
+        "name": "Bharli Vangi",
+        "description": "Baby eggplants stuffed with spicy masala.",
+        "imageUrl": "images/bharlivangi.jpg",
+        "vegetarian": false,
+        "price": 100.0,
+        "tags": "MARATHI,DINNER,VEG,SPICY,HOT"
+    },
+    {
+        "id": 33,
+        "name": "Kothimbir Vadi",
+        "description": "Steam and fried coriander chickpea cakes.",
+        "imageUrl": "images/kothimbirvadi.jpg",
+        "vegetarian": true,
+        "price": 60.0,
+        "tags": "MARATHI,SNACK,CRISPY,FRIED,STARTER"
+    },
+    {
+        "id": 34,
+        "name": "Modak",
+        "description": "Sweet rice dumplings stuffed with coconut and jaggery.",
+        "imageUrl": "images/modak.jpg",
+        "vegetarian": false,
+        "price": 50.0,
+        "tags": "MARATHI,SWEET,DESSERT,FESTIVE,STEAMED"
+    },
+    {
+        "id": 35,
+        "name": "Shrikhand Puri",
+        "description": "Sweet saffron yogurt served with hot puffy puris.",
+        "imageUrl": "images/shrikhand.jpg",
+        "vegetarian": false,
+        "price": 120.0,
+        "tags": "MARATHI,SWEET,LUNCH,FESTIVE,HEAVY"
+    },
+    {
+        "id": 36,
+        "name": "Kolhapuri Chicken",
+        "description": "Spicy chicken curry with bold Kolhapuri masala.",
+        "imageUrl": "images/rassa.jpg",
+        "vegetarian": false,
+        "price": 180.0,
+        "tags": "MARATHI,NONVEG,SPICY,DINNER,CURRY"
+    },
+    {
+        "id": 37,
+        "name": "Sheera",
+        "description": "Traditional semolina pudding with nuts and ghee.",
+        "imageUrl": "images/sheera.jpg",
+        "vegetarian": false,
+        "price": 40.0,
+        "tags": "MARATHI,SWEET,BREAKFAST,HOT,DESSERT"
+    },
+    {
+        "id": 38,
+        "name": "Usal Pav",
+        "description": "Spicy mixed sprout curry served with bread.",
+        "imageUrl": "images/usal.jpg",
+        "vegetarian": true,
+        "price": 70.0,
+        "tags": "MARATHI,SPICY,LUNCH,STREET,HOT"
+    },
+    {
+        "id": 39,
+        "name": "Ragda Pattice",
+        "description": "Potato patties topped with dried white pea curry.",
+        "imageUrl": "images/ragda.jpg",
+        "vegetarian": true,
+        "price": 60.0,
+        "tags": "STREET,SNACK,HOT,SPICY,TANGY"
+    },
+    {
+        "id": 40,
+        "name": "Idli Sambar",
+        "description": "Steamed rice cakes served with lentil soup and chutney.",
+        "imageUrl": "images/idli.jpg",
+        "vegetarian": false,
+        "price": 50.0,
+        "tags": "SOUTH,BREAKFAST,HEALTHY,VEG,STEAMED"
+    },
+    {
+        "id": 41,
+        "name": "Medu Vada",
+        "description": "Crispy doughnut-shaped lentil fritters.",
+        "imageUrl": "images/meduvada.jpg",
+        "vegetarian": true,
+        "price": 60.0,
+        "tags": "SOUTH,BREAKFAST,CRISPY,FRIED,SAVORY"
+    },
+    {
+        "id": 42,
+        "name": "Mysore Masala Dosa",
+        "description": "Crispy crepe spread with spicy red chutney and potato.",
+        "imageUrl": "images/mysore_dosa.jpg",
+        "vegetarian": false,
+        "price": 110.0,
+        "tags": "SOUTH,BREAKFAST,SPICY,CRISPY,VEG"
+    },
+    {
+        "id": 43,
+        "name": "Rava Dosa",
+        "description": "Thin crispy semolina crepe with onions and chillies.",
+        "imageUrl": "images/rava_dosa.jpg",
+        "vegetarian": false,
+        "price": 100.0,
+        "tags": "SOUTH,BREAKFAST,CRISPY,LIGHT,VEG"
+    },
+    {
+        "id": 44,
+        "name": "Onion Uttapam",
+        "description": "Thick pancake topped with caramelized onions.",
+        "imageUrl": "images/uttapam.jpg",
+        "vegetarian": false,
+        "price": 90.0,
+        "tags": "SOUTH,BREAKFAST,SOFT,VEG,SAVORY"
+    },
+    {
+        "id": 45,
+        "name": "Pesarattu",
+        "description": "Green moong dal crepe served with ginger chutney.",
+        "imageUrl": "images/pesarattu.jpg",
+        "vegetarian": false,
+        "price": 100.0,
+        "tags": "SOUTH,BREAKFAST,HEALTHY,PROTEIN,VEG"
+    },
+    {
+        "id": 46,
+        "name": "Appam with Stew",
+        "description": "Bowl-shaped rice pancake with creamy coconut veg stew.",
+        "imageUrl": "images/appam.jpg",
+        "vegetarian": false,
+        "price": 140.0,
+        "tags": "SOUTH,DINNER,CREAMY,MILD,KERALA"
+    },
+    {
+        "id": 47,
+        "name": "Idiyappam",
+        "description": "Steamed rice noodles served with coconut milk.",
+        "imageUrl": "images/idiyappam.jpg",
+        "vegetarian": false,
+        "price": 80.0,
+        "tags": "SOUTH,BREAKFAST,STEAMED,LIGHT,SWEET"
+    },
+    {
+        "id": 48,
+        "name": "Puttu and Kadala",
+        "description": "Steamed rice logs with spicy black chickpea curry.",
+        "imageUrl": "images/puttu.jpg",
+        "vegetarian": false,
+        "price": 120.0,
+        "tags": "SOUTH,BREAKFAST,KERALA,SPICY,HEAVY"
+    },
+    {
+        "id": 49,
+        "name": "Hyderabadi Biryani",
+        "description": "Aromatic basmati rice cooked with spicy marinated chicken.",
+        "imageUrl": "images/hyd_biryani.jpg",
+        "vegetarian": false,
+        "price": 250.0,
+        "tags": "SOUTH,DINNER,SPICY,NONVEG,RICE"
+    },
+    {
+        "id": 50,
+        "name": "Bisibelebath",
+        "description": "Spicy rice and lentil mash with tamarind and vegetables.",
+        "imageUrl": "images/bisibelebath.jpg",
+        "vegetarian": false,
+        "price": 90.0,
+        "tags": "SOUTH,LUNCH,SPICY,HOT,RICE"
+    },
+    {
+        "id": 51,
+        "name": "Curd Rice",
+        "description": "Cooling yogurt rice tempered with mustard and curry leaves.",
+        "imageUrl": "images/curd_rice.jpg",
+        "vegetarian": false,
+        "price": 70.0,
+        "tags": "SOUTH,LUNCH,COLD,LIGHT,HEALTHY"
+    },
+    {
+        "id": 52,
+        "name": "Lemon Rice",
+        "description": "Tangy turmeric rice with crunchy peanuts.",
+        "imageUrl": "images/lemon_rice.jpg",
+        "vegetarian": false,
+        "price": 70.0,
+        "tags": "SOUTH,LUNCH,TANGY,LIGHT,VEG"
+    },
+    {
+        "id": 53,
+        "name": "Puliyogare",
+        "description": "Spicy tamarind rice with roasted spices.",
+        "imageUrl": "images/puliyogare.jpg",
+        "vegetarian": false,
+        "price": 80.0,
+        "tags": "SOUTH,LUNCH,TANGY,SPICY,RICE"
+    },
+    {
+        "id": 54,
+        "name": "Chicken Chettinad",
+        "description": "Fiery stir-fried chicken with roasted coconut and spices.",
+        "imageUrl": "images/chettinad.jpg",
+        "vegetarian": false,
+        "price": 220.0,
+        "tags": "SOUTH,DINNER,SPICY,NONVEG,HOT"
+    },
+    {
+        "id": 55,
+        "name": "Mangalorean Fish Curry",
+        "description": "Tangy and spicy fish curry with coconut milk.",
+        "imageUrl": "images/fish_curry.jpg",
+        "vegetarian": false,
+        "price": 280.0,
+        "tags": "SOUTH,DINNER,SPICY,NONVEG,CURRY"
+    },
+    {
+        "id": 56,
+        "name": "Kerala Parotta",
+        "description": "Flaky layered flatbread served with vegetable kurma.",
+        "imageUrl": "images/parotta.jpg",
+        "vegetarian": false,
+        "price": 100.0,
+        "tags": "SOUTH,DINNER,HEAVY,FLAKY,VEG"
+    },
+    {
+        "id": 57,
+        "name": "Ven Pongal",
+        "description": "Buttery rice and lentil porridge seasoned with black pepper.",
+        "imageUrl": "images/pongal.jpg",
+        "vegetarian": false,
+        "price": 80.0,
+        "tags": "SOUTH,BREAKFAST,COMFORT,VEG,MILD"
+    },
+    {
+        "id": 58,
+        "name": "Payasam",
+        "description": "Sweet vermicelli pudding with milk and cardamom.",
+        "imageUrl": "images/payasam.jpg",
+        "vegetarian": false,
+        "price": 60.0,
+        "tags": "SOUTH,DESSERT,SWEET,HOT,FESTIVE"
+    },
+    {
+        "id": 59,
+        "name": "Rasam",
+        "description": "Spicy tangy tomato soup with black pepper and cumin.",
+        "imageUrl": "images/rasam.jpg",
+        "vegetarian": false,
+        "price": 40.0,
+        "tags": "SOUTH,APPETIZER,SPICY,HOT,SOUP"
+    },
+    {
+        "id": 60,
+        "name": "Dadpe Pohe",
+        "description": "Raw soft flattened rice tempered with mustard seeds.",
+        "imageUrl": "images/dadpepohe.jpg",
+        "vegetarian": false,
+        "price": 40.0,
+        "tags": "MARATHI,SNACK,LIGHT,RAW,VEG"
+    }
+]

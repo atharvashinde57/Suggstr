@@ -1,0 +1,16 @@
+com\food\suggester\Dish.class
+com\food\suggester\QuizService.class
+com\food\suggester\QuestionRepository.class
+com\food\suggester\DishRepository.class
+com\food\suggester\Offer.class
+com\food\suggester\User.class
+com\food\suggester\DataLoader.class
+com\food\suggester\SuggestionRequest.class
+com\food\suggester\QuizController.class
+com\food\suggester\Question.class
+com\food\suggester\Option.class
+com\food\suggester\SuggesterApplication.class
+com\food\suggester\UserRepository.class
+com\food\suggester\AuthController.class
+com\food\suggester\OfferRepository.class
+com\food\suggester\OfferController.class
